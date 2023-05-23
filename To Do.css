@@ -1,0 +1,60 @@
+h1 {
+  background-origin: padding-box;
+  background-color: rgba(255, 250, 110, 0.815);
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.js-btn {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(255, 250, 110, 0.815);
+  position: relative;
+  left: 660px;
+  top: 100px;
+}
+
+input {
+  position: relative;
+  left: 650px;
+  top: 100px;
+}
+
+input[type="text"] {
+  width: 27%;
+}
+
+.js-todos {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+  top: 28%;
+  left: 38%;
+  font-size: 24px;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 14;
+  -webkit-box-orient: vertical;
+  overflow-y: auto;
+  overflow-x: auto;
+  width: 470px;
+}
+
+.note {
+  background-color: rgba(239, 243, 113, 0.815);
+  box-shadow: 0px 2px 2px 3px #dadada;
+  width: 600px;
+  height: 540px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110px;
+}
+
+.done {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(255, 250, 110, 0.815);
+}
